@@ -1,0 +1,41 @@
+/* eSelf FLOATER TALK NOW BUTTON CHANGE */
+/* 
+.talk-now-text {
+  visibility: hidden !important;
+  position: relative !important;
+}
+
+.talk-now-text::after {
+  content: "Virtual TA" !important;
+  visibility: visible !important;
+  position: absolute !important;
+  left: 0;
+  top: 0;
+  */
+  /*font-size: 0.9em !important;   /* slightly smaller */
+/*
+
+  white-space: nowrap !important; /* prevents wrapping */
+/*
+  line-height: 1.5 !important;
+}
+*/
+.kms-ds-header-menu-navbar {
+    background-color: #ffffff;
+}
+/* TEXT BELOW START CONVERSATION BUTTON AND PRIVATE POLICY */
+<style>
+  /* Ensure SweetAlert container allows vertical stacking */
+  #swal2-html-container {
+    text-align: center;
+  }
+
+  /* Insert Medical Disclaimer below privacy policy */
+  #swal2-html-container .eself_privacy_policy::after {
+    content: "Medical Disclaimer";
+    display: block;
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: #666;
+  }
+</style>
